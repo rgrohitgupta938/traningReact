@@ -1,0 +1,51 @@
+///RCT-A2#5 task1.1(b)
+PUT is used when you want to update an existing resource on the server.
+
+///RCT-A2#5 task1.1(c)
+DELETE is used when you want to DELETE an existing resource on the server.
+
+///RCT-A2#5 task1.1(d)
+2xx (Successful): The request was successfully received and accepted.
+4xx (Client Error): The request contains bad syntax or cannot be fulfilled by the server.
+5xx (Server Error): The server failed to fulfill a valid request.
+200 OK: The request was successful, and the server has returned the requested data in the response.
+400 Bad Request: The server cannot understand the request due to client error.
+401 Unauthorized: The client must authenticate itself to get the requested response. It indicates that the request lacks 
+proper authentication.
+403 Forbidden: The server understood the request but it refuses to authorize it. This means the client does not have the necessary
+permissions to access the requested resource.
+404 Not Found: The requested resource could not be found on the server.
+500 Internal Server Error: A generic error message returned when an unexpected condition was encountered on the server, and no more 
+specific message is suitable
+
+///RCT-A2#5 task1.1(e)
+LocalStorage is a web browser feature that allows web applications to store data locally on the users device. It provides a simple
+key/value storage that persists even after the browser is closed and reopened.
+///RCT-A2#5 task1.1(f)
+stringify is used to convert JSON object into string.The resulting JSON string can then be sent to a server via an HTTP request, 
+stored in a database, or used for other purposes
+
+///RCT-A2#5 task1.1(g)
+parse is used to convert JSON string into Object.JSON.parse() is an essential method for handling data transmitted as JSON strings
+in JavaScript applications. It allows developers to convert JSON data into usable objects that can be manipulated, displayed, and 
+used in various ways within the application code
+
+///RCT-A2#5 task1.1(h)
+ localStorage provides persistent storage, meaning the data stored in it remains available even after the browser is closed and 
+ reopened. this makes it suitable for storing login-related information.
+
+///RCT-A2#5 task1.1(i)
+window.location is a property in the JavaScript DOM (Document Object Model) that represents the current URL of the web page. 
+it provides information about the current page's URL and allows developers to interact with the browser's location, navigate
+to different URLs, and perform page redirects.
+window.location is used for page redirection after successful login or logout in web applications.
+
+///RCT-A2#5 task1.1(j)
+we can show and hide elements based on status of the user by creating proctected route using users role or other value.
+
+///RCT-A2#5 task1.1(k)
+the concept of a protected route is used in web development to restrict access to certain routes or pages within a web application 
+to only authenticated users.
+protected routes are essential for enhancing the security and privacy of web applications. they prevent unauthorized users from 
+accessing sensitive or restricted content, functionality, or data.
+we can implement it by checking user data if user is valid then check check for its role or authorization in web application

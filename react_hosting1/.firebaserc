@@ -1,0 +1,23 @@
+{
+  "projects": {
+    "default": "local-storm-393804",
+    "secC": "section-a-9f6d2",
+    "secA": "myfirstproj-53bbf",
+    "secd": "sectiond-26d43",
+    "Task1": "task1-daf43",
+    "stat": "ertsgj-10422",
+    "emp\\": "empsys-d1e2b",
+    "mob": "mobilesys-4c417",
+    "shop": "shopapp-463b6",
+    "ShFil": "shopfilebased",
+    "shpDB": "shopapp-463b6",
+    "ShFb": "shopfilebased",
+    "shDB": "shopapp-463b6",
+    "shfile": "shopfilebased",
+    "prod": "prodapp-1602e",
+    "emp": "empman-5fa23",
+    "bank": "local-storm-393804"
+  },
+  "targets": {},
+  "etags": {}
+}
